@@ -10,6 +10,6 @@ const app = new Application();
 app.use(router.routes());
 app.use(router.allowedMethods());
 
-console.log(`Server running on port ${PORT}`);
+console.log(`Server running on port http://${HOST}:${PORT}`);
 
 app.listen(`${HOST}:${PORT}`);
