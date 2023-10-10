@@ -5,7 +5,7 @@ const env = Deno.env.toObject();
 const PORT = env.PORT || 3000;
 const HOST = env.HOST || "localhost";
 
-const app = new Application();
+export const app = new Application();
 
 app.use(router.routes());
 app.use(router.allowedMethods());
