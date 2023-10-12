@@ -18,10 +18,10 @@ router.get("/", (context: Context) => {
 });
 
 router
-  .get(buildTaskUrl(), noop)
+  .get(buildTaskUrl(), taskController.getAll)
   .get(buildTaskUrl() + "/:id", noop)
-  .post(buildTaskUrl(), taskController.create.bind(taskController))
-  .put(buildTaskUrl() + "/:id", noop)
+  .post(buildTaskUrl(), taskController.create)
+  .put(buildTaskUrl() + "/:id", taskController.update)
   .delete(buildTaskUrl() + "/:id", noop);
 
 export default router;
