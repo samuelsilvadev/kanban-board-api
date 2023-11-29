@@ -1,3 +1,22 @@
 {
-  "tasks": []
+  "tasks": [
+    {
+      "id": "3cc4c203-8e01-42a0-8209-8f171d6d2881",
+      "title": "A",
+      "description": "",
+      "status": "OPEN"
+    },
+    {
+      "id": "c4a54c0c-1059-44d9-9a61-abf058cdcb81",
+      "title": "B",
+      "description": "",
+      "status": "DONE"
+    },
+    {
+      "id": "ae47e85c-6cf7-4c8c-8549-225b734242ee",
+      "title": "C",
+      "description": "",
+      "status": "IN_PROGRESS"
+    }
+  ]
 }
